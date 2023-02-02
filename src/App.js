@@ -5,7 +5,7 @@ function App() {
   const [theme,setTheme] =useState(true)
   return (
     <div className={theme ? "light"  : "dark" }>
-     <div className='btn'> <button onClick={() => setTheme(!theme)}>*</button> </div>
+     <div className='btn'> <button onClick={() => setTheme(!theme)}> *</button> </div>
       <Data/>
     </div>
   )
