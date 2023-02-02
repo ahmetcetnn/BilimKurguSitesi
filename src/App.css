@@ -1,3 +1,44 @@
 body{
-  background-color: darkblue;
+  background-color: whitesmoke;
+}
+.resim{
+  margin-top: 4px;
+  min-height:45rem;
+  border-radius:2rem;
+  overflow:hidden;
+  position:relative;
+  object-fit:cover;
+}
+img{
+  border-radius:2rem;
+  position:absolute;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+h1{
+  text-align: center;
+}
+h5{
+  font-size: 20px;
+}
+.btn{
+  
+  display: flex;
+  justify-content: end;
+
+}
+button {
+  border:none;
+  font-size: 50px;
+  margin-right: 15px;
+}
+.light{
+  background-color: rgb(150, 144, 128);
+  color: black;
+}
+.dark{
+  background-color: rgb(39, 39, 107);
+  color: white;
 }
