@@ -43,13 +43,15 @@ function Data() {
     </div>
 }
 const Wrapper =styled.div`
-margin:4rem 1rem;`;
+margin:3px 16px;
+padding:6rem`;
 
 const Card =styled.div`
 min-height:25rem;
 border-radius:2rem;
 overflow:hidden;
-position:relative;
+position:relative
+padding: 0%;;
   `
 
 

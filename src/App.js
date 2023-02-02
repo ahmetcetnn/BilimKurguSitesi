@@ -7,6 +7,7 @@ function App() {
     <div className={theme ? "light"  : "dark" }>
      <div className='btn'> <button onClick={() => setTheme(!theme)}> *</button> </div>
       <Data/>
+      
     </div>
   )
 }
