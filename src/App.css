@@ -10,7 +10,7 @@ body{
   overflow:hidden;
   position:relative;
   object-fit:cover;
-  padding: 0%;
+  padding: 1%;
 }
 img{
   border-radius:2rem;
