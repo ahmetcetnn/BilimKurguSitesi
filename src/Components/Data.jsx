@@ -30,6 +30,7 @@ function Data() {
       <h3>{slide.actors}</h3>
       <h5>{slide.plot}</h5>
       
+      
       </Card>
       <div className="resim">
       <img src={slide.posterUrl} alt="poster"/>
